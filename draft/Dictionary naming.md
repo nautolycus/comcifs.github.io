@@ -1,6 +1,6 @@
 # Dictionary naming conventions
 
-Version 0.2.1 2026-01-29
+Version 0.2.2 2026-02-20
 
 This table establishes conventions for naming dictionaries and tracking their implementation. The first set of columns tracks historical usage; the last (in bold) indicate dictionaries on GitHub now conforming to the agreed requirements.
 
@@ -35,6 +35,7 @@ Conventions for DDL dictionaries still to be confirmed.
 |                  |         |         |                      |                | Topology.dic (G)         |                        |                   |                    |                    |                       |                                                  |
 | Multiblock core  | N/A     | .       | "multiblock coreCIF" | CIF_multiblock <img src="logos/CIF_multiblock.jpg" alt="multiblockCIF logo" height="60">    | cif_multiblock.dic       | MULTIBLOCK_DIC (!)     |                   | **cif_multiblock** |                    | **CifCore**           |                                                  |
 |                  |         |         |                      |                | multi_block_core.dic (G) |                        |                   |                    |                    |                       |                                                  |
+| Spin             | N/A     | .       | spinCIF              |                                                                             | cif_spin.dic             | N/A                    | CIF_SPIN          | spinCIF (!)        | CIF_SPIN_HEAD (!)| **CifCore**           |  In early development. Repository to be renamed, logo to be created.  |
 |                  |         |         |                      |                |                          |                        |                   |                    |                    |                       |                                                  |
 |                  |
 | DDL1             | .       | .       | .                    | CIF_DDL <img src="logos/CIF_DDL.jpg" alt="DDL logo" height="60">        | ddl_core.dic             | N/A                    |                   | N/A                |                    | N/A                   |                                                  |
@@ -54,3 +55,4 @@ Legend:
 |   0.1.0 | 2025-11-24 | Initial draft of the dictionary naming conventions. |
 |   0.2.0 | 2026-01-28 | Added legend, update table values.                  |
 |   0.2.1 | 2026-01-29 | Added CIF logo files.                               |
+|   0.2.2 | 2026-02-20 | Added preliminary info for spinCIF.                 |
